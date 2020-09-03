@@ -1,0 +1,19 @@
+.main{
+  width: 100vw;
+  height: calc(100vh - 300px);
+  background-color: powderblue;
+}
+
+.slick{
+  width: 100vw;
+  height: calc(100vh - 300px);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.review{
+  width: 100vw;
+  height: 200px;
+  // background-color: pink;
+}

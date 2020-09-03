@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+
+.top-bar{
+  width: 100vw;
+  height: 100px;
+  background-color: #eeffff;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  width: 200px;
+  height: 100px;
+  position: relative;
+
+  &__text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.8;
+    display: none;
+  }
+}
+
+
+.bar-menu{
+  width: calc(100vw - 200px);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #aaaaaa;
+    font-weight: bold;
+    letter-spacing: 10px;
+  }
+
+  &__ski-area{
+    width: 300px;
+    padding: 15px;
+  }
+  &__weather{
+    width: 248px;
+    padding: 15px;
+  }
+  &__traffic{
+    width: 248px;
+    padding: 15px;
+  }
+  &__hotel{
+    width: 248px;
+    padding: 15px;
+  }
+  &__mypage{
+    width: 248px;
+    padding: 15px;
+  }
+}
