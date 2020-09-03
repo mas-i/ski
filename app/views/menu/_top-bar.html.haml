@@ -1,0 +1,11 @@
+.top-bar
+  .logo
+    = image_tag('snow.jpg', size: '200x100', alt: "サンプル画像")
+    .logo__text
+      トップページへ！
+  %ul.bar-menu
+    %li= link_to 'スキー場一覧', area_index_path, class: "bar-menu__ski-area"
+    %li= link_to '天気', weather_index_path, class: "bar-menu__weather"
+    %li= link_to '交通情報', traffic_index_path, class: "bar-menu__traffic"
+    %li= link_to '宿泊', hotel_index_path, class: "bar-menu__hotel"
+    %li= link_to 'マイページ' "#", class: "bar-menu__mypage"

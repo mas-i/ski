@@ -1,0 +1,99 @@
+.wrapper
+  = render "menu/top-bar"
+
+#youtube-wrap
+  #youtube{"data-property" => "{\n    videoURL: 'https://www.youtube.com/watch?v=X8Zp5OS0YpA',\n    containment: '#youtube-wrap',\n    autoPlay: true,\n    loop: 1,\n    mute: true,\n    startAt: 0,\n    opacity: 1,\n    showControls: false,\n    showYTLogo: false,\n    onReady: function( player ) {\n      $('.loading').hide('slow');\n    }\n  }"}
+  .loading Loading...
+
+  %ul.list
+    %li
+      北海道
+      %ul.list_menu
+        %li
+          %a{href: "#"} 道北
+        %li
+          %a{href: "#"} 道東
+        %li
+          %a{href: "#"} 道央・道南
+    %li
+      東北
+      %ul.list_menu
+        %li
+          %a{href: "#"} 青森
+        %li
+          %a{href: "#"} 岩手
+        %li
+          %a{href: "#"} 秋田
+        %li
+          %a{href: "#"} 宮城
+        %li
+          %a{href: "#"} 山形
+        %li
+          %a{href: "#"} 福島
+    %li
+      関東甲信越
+      %ul.list_menu
+        %li
+          %a{href: "#"} 那須・塩原
+        %li
+          %a{href: "#"} 沼田・水上
+        %li
+          %a{href: "#"} 草津・嬬恋・万座
+        %li
+          %a{href: "#"} 神奈川・埼玉・千葉
+        %li
+          %a{href: "#"} 湯沢・中越
+        %li
+          %a{href: "#"} 妙高・上越
+        %li
+          %a{href: "#"} 斑尾・野沢・飯綱
+        %li
+          %a{href: "#"} 八ヶ岳・蓼科・富士
+        %li
+          %a{href: "#"} 軽井沢・菅平
+        %li
+          %a{href: "#"} 志賀高原・北志賀
+        %li
+          %a{href: "#"} 白馬
+        %li
+          %a{href: "#"} 乗鞍・木曽
+        %li
+          %a{href: "#"} 南信州
+    %li
+      中京
+      %ul.list_menu
+        %li
+          %a{href: "#"} 飛騨
+        %li
+          %a{href: "#"} 奥美濃
+    %li
+      北陸
+      %ul.list_menu
+        %li
+          %a{href: "#"} 富山
+        %li
+          %a{href: "#"} 石川
+        %li
+          %a{href: "#"} 福井
+    %li
+      関西
+      %ul.list_menu
+        %li
+          %a{href: "#"} 滋賀
+        %li
+          %a{href: "#"} 兵庫
+        %li
+          %a{href: "#"} 京都・三重
+    %li
+      中国・四国・九州
+      %ul.list_menu
+        %li
+          %a{href: "#"} 鳥取・島根
+        %li
+          %a{href: "#"} 岡山・広島・山口
+        %li
+          %a{href: "#"} 四国
+        %li
+          %a{href: "#"} 九州
+
+
