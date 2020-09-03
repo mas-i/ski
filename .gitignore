@@ -29,3 +29,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+/app/aseets/images
+/public/uploads
